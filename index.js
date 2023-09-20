@@ -27,4 +27,5 @@ fetch("https://fakestoreapi.com/products")
 
         cloth4.firstElementChild.setAttribute("src", json[four].image);
         cloth4.lastElementChild.textContent = `${json[four].price} $`;
+        console.log('nima');
     });
