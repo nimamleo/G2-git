@@ -1,0 +1,108 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.main{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: 10rem auto;
+    display: flex;
+    border-radius: 16px;
+}
+
+.left{
+    width: 50%;
+    background-color: #1b60c8;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px 0px 0px 16px;
+}
+.desc{
+    width: 90%;
+    text-align: center;
+}
+
+.img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem;
+    border-radius: 0px 16px 16px 0px;
+    border: 1px solid black;
+}
+
+.form{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.right input , select{
+    width: 80%;
+    height: 2rem;
+    margin: .7rem;
+    border-radius: 12px;
+    padding: .5rem 1rem .5rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.374);
+}
+
+.search , select{
+    width: 14.4rem !important;
+    height: 3rem !important;
+
+}
+
+input:focus-visible{
+    outline: none !important;
+}
+
+
+.btn{
+    width: 9rem;
+    height: 3rem;
+    background-color: #1b60c8;
+    border: 1px solid #1b60c8;
+    color: white;
+    border-radius: 16px;
+    margin-top: 1rem;
+    font-family: cursive;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: #1b60c8;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.error{
+    margin: 0;
+}
+
+.email{
+    border: 4px solid red;
+}
+
+
+.register-page{
+    color: #1b60c8;
+    text-decoration: dashed;
+    cursor: pointer;
+}
