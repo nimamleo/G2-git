@@ -72,12 +72,12 @@ function Validatepassword(pass) {
     }
 }
 
-// function finalValidate() {
-//     if (
-//         ValidateEmail(email_input.value) &&
-//         Validatepassword(pass_input.value)
-//     ) {
-//         return true;
-//     }
-//     return false;
-// }
+function finalValidate() {
+    if (
+        ValidateEmail(email_input.value) &&
+        Validatepassword(pass_input.value)
+    ) {
+        return true;
+    }
+    return false;
+}
